@@ -1,0 +1,3 @@
+# GenAI Developer, Associate — 673050WD Verdict
+
+**Match Quality**: Strong AI/GenAI development skills demonstrated through multiple repos. LangGraph agent implementation shows model orchestration, Python expertise with LangChain/Anthropic integrations, Docker deployment configs, and conversation management (data preprocessing analog). However, lacks traditional ML frameworks (no TensorFlow/PyTorch/scikit-learn), cloud deployment evidence (Azure/AWS/GCP), and big data tools (Spark/Hadoop). Strong on GenAI agent development but missing classical ML and enterprise cloud deployment. Relevance: 4-5/5 for GenAI, 2-3/5 for traditional ML.
