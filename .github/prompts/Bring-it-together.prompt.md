@@ -16,6 +16,8 @@ Consolidate all individual job evidence tables and verdicts from `/workspaces/co
 ## Output Requirements
 Create `/workspaces/codespaces-blank/out/COMBINED_EVIDENCE_REPORT.md` with:
 
+#IMPORTANT#: Create a separate checklist of what don't have from the job description and evidence highlight them in red so that i can focus on them while applying for the job making sure i cover all the points mentioned in the job description while applying for the job.
+
 1. **Executive Summary** (100-150 words)
    - Overview of 4 jobs processed
    - Total evidence rows (20)
