@@ -10,13 +10,18 @@
 - [x] Project Coordinator (678714WD) - 5 evidence rows + verdict
 - [x] All outputs organized in `/out/[JobTitle-ReqID]/` directories
 
-## 📋 Todo
-- [ ] Combine all evidence into unified report
-- [ ] Review and refine evidence tables
-- [ ] Add executive summary
-- [ ] Highlight strongest matches
-- [ ] Identify skill gaps across all roles
-- [ ] Create final application strategy document
+## 📋 Consolidation Completed ✅
+- [x] Combine all evidence into unified report (COMBINED_EVIDENCE_REPORT.md)
+- [x] Review and refine evidence tables
+- [x] Add executive summary
+- [x] Highlight strongest matches (Project Coordinator 5/5, UX/UI 4.5/5)
+- [x] Identify skill gaps across all roles (🔴 red highlights added)
+- [x] Create final application strategy document
+
+## 🔄 Next Steps
+- [ ] Process remaining jobs from "Alex email Checklist"
+- [ ] Expand evidence search to official documentation sources
+- [ ] Apply to Project Coordinator role (highest priority)
 
 ## 📊 Stats
 - Jobs processed: 4
