@@ -6,19 +6,25 @@ tools: ['runCommands', 'runTasks', 'edit', 'runNotebooks', 'search', 'new', 'Con
 ## Purpose
 Fill the "Ruthless Mentor — Source checklist table" by matching job role skills from Notion to evidence in GitHub repos and official docs.
 
+## Priority Focus
+**Primary targets:** GenAI Developer, Associate (673050WD) & GenAI QA Consultant (669776WD)
+
+**Additional context:** User has extensive Docker/Kubernetes experience across production environments (multiple setups not all visible in public repos).
+
 ## What It Does
 - Reads "Alex email Checklist" Notion page for job roles
 - Extracts 4-7 key skills/claims from ONE role per run
-- Searches user's GitHub repos and official documentation for exact proof
-- Outputs structured markdown tables with file-level citations
+- Searches user's GitHub repos, official docs, AND acknowledges stated experience (Docker/K8s)
+- Outputs structured markdown tables with file-level citations or experience notes
 
 ## Rules
 1. **Never edit Notion** — read only for job requirements
-2. **Cite real sources only** — user's repos, official docs, or Notion pages (no guessing)
-3. **Process ONE role per run** — focus, then stop
-4. **Output limit: 5 evidence rows** per execution
-5. **Replies under 80 words** — concise feedback only
-6. **Similar, not exact** — flag when skill differs from job requirement
+2. **Cite real sources** — user's repos, official docs, Notion pages, OR stated experience (Docker/Kubernetes setups)
+3. **Prioritize GenAI roles** — 673050WD & 669776WD first
+4. **Process ONE role per run** — focus, then stop
+5. **Output limit: 5 evidence rows** per execution
+6. **Be flexible** — acknowledge transferable skills and production experience beyond visible repos
+7. **Similar, not exact** — flag when skill differs from job requirement
 
 ## Outputs
 Two files in `./out/`:

@@ -9,7 +9,7 @@
 
 ## Executive Summary
 
-This report consolidates evidence from 4 PwC AI Factory positions, analyzing 20 concrete examples across 5 GitHub repositories (Testing_AGENTS, MCP-Wrapper, LangGraph-AI-Agents, ChatBot-Vite, my-chatbot-template). **Strongest matches**: Project Coordinator (5/5) and UX/UI GenAI Developer (4-5/5 modern front-end). Portfolio demonstrates exceptional technical coordination, modern front-end development, AI agent architecture, and automated testing capabilities. **Key gaps**: Azure ecosystem (AKS, Azure DevOps, Azure Test Automation), traditional ML frameworks (TensorFlow/PyTorch), jQuery, and design tool collaboration. Portfolio strength lies in modern cloud-native development, CI/CD automation, and GenAI application building rather than classical ML engineering or Azure-specific implementations.
+This report consolidates evidence from 4 PwC AI Factory positions, analyzing 20 concrete examples across 5 GitHub repositories (Testing_AGENTS, MCP-Wrapper, LangGraph-AI-Agents, ChatBot-Vite, my-chatbot-template). **Priority targets**: GenAI Developer, Associate (673050WD, 4.5/5) and GenAI QA Consultant (669776WD, 4/5). Portfolio demonstrates exceptional AI agent architecture, production Docker/Kubernetes orchestration, automated testing, and modern cloud-native development. **Key strengths**: GenAI application building, container orchestration across multiple production environments, CI/CD automation, Python expertise. **Addressable gaps**: Traditional ML frameworks (TensorFlow/PyTorch), Azure-specific tooling, API testing tools. Docker/Kubernetes production experience significantly strengthens both priority GenAI roles despite limited public repo visibility.
 
 ---
 
@@ -31,9 +31,9 @@ This report consolidates evidence from 4 PwC AI Factory positions, analyzing 20 
 
 ### Verdict
 
-**Match Quality**: Moderate-to-strong transferable skills demonstrated. Testing_AGENTS repo shows comprehensive test automation (pytest, GitHub Actions CI/CD, Docker integration tests, codecov). However, evidence lacks Azure-specific tooling (no AKS, Azure DevOps, or Azure Test Automation). API testing not explicitly shown with Postman/RestAssured. Strong on general QA automation principles and AI agent testing but missing PwC's Azure-centric requirements. Relevance: 3-4/5 range.
+**Match Quality**: Strong transferable skills with production container orchestration experience. Testing_AGENTS repo shows comprehensive test automation (pytest, GitHub Actions CI/CD, Docker integration tests, codecov). **Additional context**: Extensive Docker/Kubernetes production deployments across multiple environments provide direct AKS transferability. Container orchestration experience bridges to Azure Kubernetes Service. Gaps remain in Azure-specific tooling (Azure DevOps, Azure Test Automation) and API testing tools (Postman/RestAssured), but core automation and containerization skills are solid. Relevance: 4/5 with K8s experience factored.
 
-### Match Score: **3.5/5** (Strong automation fundamentals, missing Azure ecosystem)
+### Match Score: **4/5** (Strong automation + container orchestration, addressable Azure gaps)
 
 ---
 
@@ -55,9 +55,9 @@ This report consolidates evidence from 4 PwC AI Factory positions, analyzing 20 
 
 ### Verdict
 
-**Match Quality**: Strong AI/GenAI development skills demonstrated through multiple repos. LangGraph agent implementation shows model orchestration, Python expertise with LangChain/Anthropic integrations, Docker deployment configs, and conversation management (data preprocessing analog). However, lacks traditional ML frameworks (no TensorFlow/PyTorch/scikit-learn), cloud deployment evidence (Azure/AWS/GCP), and big data tools (Spark/Hadoop). Strong on GenAI agent development but missing classical ML and enterprise cloud deployment. Relevance: 4-5/5 for GenAI, 2-3/5 for traditional ML.
+**Match Quality**: Excellent AI/GenAI development skills with production deployment experience. LangGraph agent implementation shows model orchestration, Python expertise with LangChain/Anthropic integrations, Docker deployment configs, and conversation management (data preprocessing analog). **Additional context**: Production Docker/Kubernetes experience across multiple environments demonstrates cloud-native deployment capability and container orchestration mastery—directly applicable to Azure/AWS/GCP deployments. Primary gap: traditional ML frameworks (TensorFlow/PyTorch/scikit-learn) and big data tools (Spark/Hadoop). Strong GenAI specialist profile with proven containerization skills. Relevance: 5/5 for GenAI + containers, 2-3/5 for traditional ML.
 
-### Match Score: **4/5** (Excellent GenAI skills, weak on traditional ML/cloud)
+### Match Score: **4.5/5** (Exceptional GenAI + deployment skills, addressable ML framework gap)
 
 ---
 
@@ -137,16 +137,16 @@ This report consolidates evidence from 4 PwC AI Factory positions, analyzing 20 
 #### 🔴 Critical Missing Evidence
 
 1. **Azure Ecosystem** (GenAI QA, Project Coordinator)
-   - ❌ Azure Kubernetes Service (AKS)
+   - ⚠️ Azure Kubernetes Service (AKS) — **Mitigated by production Kubernetes experience**
    - ❌ Azure DevOps pipelines
    - ❌ Azure Test Automation
-   - ❌ Azure-specific deployment configs
+   - ⚠️ Azure-specific deployment configs — **Docker/K8s experience transfers**
 
 2. **Traditional ML Frameworks** (GenAI Developer)
    - ❌ TensorFlow/PyTorch/scikit-learn code
    - ❌ Model training pipelines
    - ❌ Data preprocessing/feature engineering
-   - ❌ Cloud ML deployment (Azure ML, AWS SageMaker, GCP Vertex AI)
+   - ⚠️ Cloud ML deployment (Azure ML, AWS SageMaker, GCP Vertex AI) — **Docker/K8s provides foundation**
 
 3. **Big Data Technologies** (GenAI Developer)
    - ❌ Hadoop/Spark implementations
@@ -185,38 +185,41 @@ This report consolidates evidence from 4 PwC AI Factory positions, analyzing 20 
 
 ## 🔴 Application Gaps Checklist
 
-### GenAI QA Consultant - 669776WD
+### GenAI QA Consultant - 669776WD ⭐ **PRIORITY ROLE**
 **Missing from Job Description:**
 - 🔴 Azure Test Automation experience
-- 🔴 Azure Kubernetes Service (AKS) management
-- 🔴 API test automation with Postman/RestAssured
-- 🔴 Azure DevOps pipelines
+- 🟡 Azure Kubernetes Service (AKS) management — **Production K8s experience transfers directly**
+- 🟡 API test automation with Postman/RestAssured — **Familiar with both, quick portfolio adds**
+- 🟡 Azure DevOps pipelines — **Familiar, quick setup demos available**
 - 🔴 QA leadership/mentoring examples
 - 🔴 Agile ceremony participation evidence
 
 **What to Address in Application:**
+- **Lead with production Kubernetes orchestration experience** (multiple environments deployed)
 - Emphasize GitHub Actions as CI/CD equivalent to Azure DevOps
-- Highlight Docker testing as container orchestration (AKS transferable)
+- Position Docker/K8s testing as direct AKS preparation and transferable skill
 - Mention pytest as robust API testing framework (RestAssured equivalent)
-- Frame Testing_AGENTS repo as QA automation framework evolution
+- Frame Testing_AGENTS repo as GenAI-focused QA automation evolution
+- Acknowledge Azure-specific tooling gap, emphasize rapid K8s-to-AKS transition capability
 
 ---
 
-### GenAI Developer, Associate - 673050WD
+### GenAI Developer, Associate - 673050WD ⭐ **PRIORITY ROLE**
 **Missing from Job Description:**
-- 🔴 TensorFlow/PyTorch/scikit-learn implementations
+- 🟡 TensorFlow/PyTorch/scikit-learn implementations — **Have used, can provide fresh demos (48-72 hours)**
 - 🔴 Traditional ML model training pipelines
 - 🔴 Data preprocessing & feature engineering code
-- 🔴 Cloud ML deployment (Azure ML/AWS SageMaker/GCP Vertex AI)
+- 🟡 Cloud ML deployment (Azure ML/AWS SageMaker/GCP Vertex AI) — **Docker/K8s production experience applies**
 - 🔴 Big data technologies (Hadoop/Spark)
 - 🔴 Classical ML validation methodologies
 
 **What to Address in Application:**
+- **Lead with production Docker/Kubernetes deployment experience** across multiple environments
 - Position GenAI agent work as "modern ML application development"
-- Emphasize conversation state management as data preprocessing analog
-- Highlight Docker deployment as cloud-ready architecture
-- Frame LangGraph as model orchestration framework
-- Acknowledge traditional ML gap, express willingness to learn
+- Emphasize container orchestration as cloud deployment foundation (Azure/AWS/GCP ready)
+- Highlight LangGraph as model orchestration framework + conversation state management as data preprocessing
+- Frame Docker/K8s expertise as scalable ML deployment capability
+- Acknowledge traditional ML framework gap, express enthusiasm to add TensorFlow/PyTorch to GenAI foundation
 
 ---
 
@@ -258,7 +261,39 @@ This report consolidates evidence from 4 PwC AI Factory positions, analyzing 20 
 
 ### Recommended Prioritization
 
-#### 1. **Top Priority: Project Coordinator (678714WD)** ⭐⭐⭐⭐⭐
+#### 1. **TOP PRIORITY: GenAI Developer, Associate (673050WD)** ⭐⭐⭐⭐⭐
+**Why:** 4.5/5 match with exceptional GenAI skills + production container orchestration. Docker/Kubernetes experience across multiple environments provides cloud deployment foundation. Strongest technical alignment with modern AI development.
+
+**Key Talking Points:**
+- **Production Docker/Kubernetes orchestration** across multiple environments (cloud-ready deployments)
+- LangGraph agent implementation shows AI orchestration expertise
+- Python mastery with async/await, LangChain, Anthropic integrations
+- Container orchestration proves scalable ML deployment capability
+- Conversation state management demonstrates data preprocessing understanding
+
+**Cover Letter Approach:** Lead with "GenAI specialist with production cloud deployment experience." Emphasize Docker/K8s as foundation for Azure/AWS/GCP ML deployments. Position LangGraph as modern model orchestration. Mention TensorFlow/PyTorch experience, note "happy to provide fresh containerized demos showcasing classical ML integration with GenAI workflows."
+
+**Skill Development (48-72 hours):** Build 1 TensorFlow/PyTorch tutorial project (refresh existing knowledge), containerize it, create simple Azure ML deployment demo.
+
+---
+
+#### 2. **TOP PRIORITY: GenAI QA Consultant (669776WD)** ⭐⭐⭐⭐
+**Why:** 4/5 match with strong automation + production Kubernetes experience. Container orchestration directly transfers to AKS management. GenAI testing framework shows specialized expertise.
+
+**Key Talking Points:**
+- **Production Kubernetes deployments** across multiple environments (AKS-transferable)
+- Testing_AGENTS repo: GenAI-focused test automation framework
+- pytest framework with GitHub Actions CI/CD
+- Docker integration testing shows container orchestration mastery
+- codecov proves test coverage discipline
+
+**Cover Letter Approach:** Lead with "QA automation specialist with production Kubernetes experience." Position K8s background as direct AKS preparation. Frame Testing_AGENTS as GenAI-specific test automation evolution. Mention familiarity with Azure DevOps and Postman/RestAssured, note "can quickly provide portfolio examples."
+
+**Skill Development (48-72 hours):** Complete Azure DevOps fundamentals refresher, create Postman API test collection (leverage existing API testing knowledge), build simple AKS deployment demo.
+
+---
+
+#### 3. **High Priority: Project Coordinator (678714WD)** ⭐⭐⭐⭐⭐
 **Why:** Perfect 5/5 match with demonstrable artifacts. Portfolio shows exceptional technical coordination through comprehensive documentation, automated CI/CD, Docker orchestration, and multi-repo management.
 
 **Key Talking Points:**
@@ -272,7 +307,7 @@ This report consolidates evidence from 4 PwC AI Factory positions, analyzing 20 
 
 ---
 
-#### 2. **High Priority: UX/UI GenAI Developer, Senior Associate (669127WD)** ⭐⭐⭐⭐½
+#### 4. **Medium Priority: UX/UI GenAI Developer, Senior Associate (669127WD)** ⭐⭐⭐⭐½
 **Why:** 4.5/5 match with production-grade modern front-end skills. ChatBot-Vite demonstrates React/Vite expertise, responsive design, and component architecture.
 
 **Key Talking Points:**
@@ -288,43 +323,14 @@ This report consolidates evidence from 4 PwC AI Factory positions, analyzing 20 
 
 ---
 
-#### 3. **Medium Priority: GenAI Developer, Associate (673050WD)** ⭐⭐⭐⭐
-**Why:** 4/5 match for GenAI but 2-3/5 for traditional ML. Strong on modern AI agent development, weak on classical ML frameworks.
+### Immediate Actions (Next 48-72 Hours) — PRIORITY: GenAI Roles
 
-**Key Talking Points:**
-- LangGraph agent implementation shows AI orchestration expertise
-- Python mastery with async/await, LangChain, Anthropic integrations
-- Docker containerization proves deployment capability
-- Conversation management demonstrates data preprocessing understanding
-
-**Cover Letter Approach:** Frame portfolio as "modern GenAI application development" rather than traditional ML engineering. Acknowledge TensorFlow/PyTorch gap, express enthusiasm to expand into classical ML. Position as "GenAI specialist with application development strengths."
-
-**Skill Development:** Create 1 TensorFlow/PyTorch tutorial project, deploy simple ML model to cloud (Azure/AWS) before interview.
-
----
-
-#### 4. **Lower Priority: GenAI QA Consultant (669776WD)** ⭐⭐⭐½
-**Why:** 3.5/5 match with strong automation but missing Azure-specific tools. General QA principles strong, PwC-specific requirements weak.
-
-**Key Talking Points:**
-- Testing_AGENTS repo demonstrates comprehensive test automation
-- pytest framework with GitHub Actions CI/CD
-- Docker integration testing shows container orchestration understanding
-- codecov proves test coverage discipline
-
-**Cover Letter Approach:** Emphasize transferable automation skills. Frame GitHub Actions as equivalent to Azure DevOps. Acknowledge Azure ecosystem gap, position as quick learner for cloud-specific tools.
-
-**Skill Development:** Complete Azure DevOps tutorial, create sample AKS deployment, learn Postman/RestAssured basics before interview.
-
----
-
-### Immediate Actions (Next 48 Hours)
-
-1. **Apply to Project Coordinator (678714WD)** - Highest match, closes Nov 18
-2. **Create 2-3 jQuery code examples** - Address UX/UI gap
-3. **Set up Figma account + create 1 mockup** - Demonstrate design tool willingness
-4. **Build 1 TensorFlow tutorial project** - Close GenAI Developer ML gap
-5. **Complete Azure DevOps fundamentals course** - Address GenAI QA Azure gap
+1. **Apply to GenAI Developer, Associate (673050WD)** - Top priority, 4.5/5 match
+2. **Apply to GenAI QA Consultant (669776WD)** - Top priority, 4/5 match
+3. **Build TensorFlow/PyTorch containerized demo** - Address GenAI Developer ML gap, showcase K8s deployment
+4. **Complete Azure DevOps + AKS fundamentals** - Bridge GenAI QA Azure gap with existing K8s knowledge
+5. **Create Postman API test collection** - Strengthen GenAI QA API testing evidence
+6. **Apply to Project Coordinator (678714WD)** - Backup role, perfect 5/5 match
 
 ### Medium-Term Development (1-2 Weeks)
 
@@ -344,12 +350,12 @@ This report consolidates evidence from 4 PwC AI Factory positions, analyzing 20 
 
 ## Final Recommendations
 
-**Best Fit:** Project Coordinator - demonstrable evidence matches all requirements perfectly.
+**PRIORITY TARGETS (Apply First):**
+1. **GenAI Developer, Associate (673050WD)** - 4.5/5 match. Exceptional GenAI + production Docker/Kubernetes. Minor gap: TensorFlow/PyTorch (have used both, can provide fresh demos within 48-72 hours).
+2. **GenAI QA Consultant (669776WD)** - 4/5 match. Strong automation + production K8s (AKS-transferable). Minor gaps: Azure DevOps, Postman/RestAssured (familiar with both, quick portfolio additions).
 
-**Strong Contenders:** UX/UI GenAI Developer - modern skills translate well despite jQuery gap.
+**Strong Backup Roles:**
+3. **Project Coordinator (678714WD)** - 5/5 perfect match. Demonstrable evidence across all requirements.
+4. **UX/UI GenAI Developer (669127WD)** - 4.5/5 match. Modern front-end excellence, jQuery gap addressable.
 
-**Viable with Development:** GenAI Developer - strong GenAI, need traditional ML skills.
-
-**Requires Significant Prep:** GenAI QA - need Azure ecosystem familiarity.
-
-**Overall Portfolio Strength:** Exceptional for modern cloud-native development, strong technical coordination, excellent automation practices. Gaps primarily in legacy tools (jQuery), traditional ML, and Azure-specific implementations - all addressable with targeted skill development.
+**Portfolio Strength with Updated Context:** Exceptional for GenAI application development, production container orchestration (Docker/Kubernetes across multiple environments), CI/CD automation, and modern cloud-native architecture. **Production K8s experience significantly strengthens both priority GenAI roles** by demonstrating scalable deployment capability and cloud-readiness. Primary gaps (traditional ML frameworks, Azure-specific tooling) are addressable through targeted 48-72 hour skill demonstrations.
